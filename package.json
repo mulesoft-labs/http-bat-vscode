@@ -2,7 +2,7 @@
   "name": "http-bat-vscode",
   "displayName": "http-bat",
   "version": "0.1.0",
-  "publisher": "mulesoft",
+  "publisher": "menduz",
   "description": "http-bat extension for visual studio code",
   "author": {
     "name": "menduz",

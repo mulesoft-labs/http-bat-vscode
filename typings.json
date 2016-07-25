@@ -1,0 +1,6 @@
+{
+  "globalDependencies": {
+    "superagent": "registry:dt/superagent#1.4.0+20160724070541",
+    "supertest": "registry:dt/supertest#1.1.0+20160724070541"
+  }
+}
