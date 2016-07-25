@@ -1,4 +1,4 @@
-# VSCode - WordCount README
+# VSCode - HTTP-BAT extension
  
 This is a simple extension that illustrates a number of concepts when it comes to writing extensions for VS Code.  
 
