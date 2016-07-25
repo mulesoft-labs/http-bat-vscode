@@ -84,7 +84,7 @@ export class WordCounter {
     let bat = new Bat({
       raw: content,
       file: doc.fileName,
-      loadRaml: false
+      loadAssets: false
     });
 
     return bat.errors.filter(x => x.node).map(error => {

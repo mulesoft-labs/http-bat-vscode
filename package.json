@@ -36,5 +36,8 @@
   "devDependencies": {
     "typescript": "^1.8.10",
     "vscode": "^0.10.7"
+  },
+  "dependencies": {
+    "http-bat": "^1.2.3"
   }
 }
