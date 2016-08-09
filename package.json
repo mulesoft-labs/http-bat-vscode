@@ -1,43 +1,43 @@
 {
-    "name": "http-bat-vscode",
-    "displayName": "http-bat",
-    "version": "0.1.1",
-    "publisher": "menduz",
-    "description": "http-bat extension for visual studio code",
-    "author": {
-        "name": "menduz",
-        "email": "agustin.mendez@mulesoft.com",
-        "url": "http://www.menduz.com"
-    },
-    "categories": [
-        "Languages"
-    ],
-    "license": "SEE LICENSE IN LICENSE.txt",
-    "icon": "images/icon.svg",
-    "galleryBanner": {
-        "color": "#C80000",
-        "theme": "dark"
-    },
-    "activationEvents": [
-        "onLanguage:yaml"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mulesoft-labs/http-bat-vscode.git"
-    },
-    "engines": {
-        "vscode": "0.10.x"
-    },
-    "main": "./out/extension",
-    "scripts": {
-        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
-    },
-    "devDependencies": {
-        "typescript": "^1.8.10",
-        "vscode": "^0.10.7"
-    },
-    "dependencies": {
-        "http-bat": "^1.2.3"
-    }
+  "name": "http-bat-vscode",
+  "displayName": "http-bat",
+  "version": "0.1.2",
+  "publisher": "menduz",
+  "description": "http-bat extension for visual studio code",
+  "author": {
+    "name": "menduz",
+    "email": "agustin.mendez@mulesoft.com",
+    "url": "http://www.menduz.com"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "icon": "images/icon.svg",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onLanguage:yaml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mulesoft-labs/http-bat-vscode.git"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "main": "./out/extension",
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "vscode": "^0.10.7"
+  },
+  "dependencies": {
+    "http-bat": "^2.0.0-alpha.5"
+  }
 }
